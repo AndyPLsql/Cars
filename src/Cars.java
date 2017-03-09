@@ -6,5 +6,8 @@ public class Cars {
         Engine engine_v12 = new Engine(2000);
         engine_v12.PrintInfo();
 
+        Engine engine_v8 = new Engine(2003);
+        engine_v8.PrintInfo();
+
     }
 }

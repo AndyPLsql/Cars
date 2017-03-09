@@ -1,5 +1,10 @@
 public class Cars {
     public static void main(String[] args) {
-        System.out.println("My first output to console from Cars class.");
+        Engine engine = new Engine();
+        engine.PrintInfo();
+
+        Engine engine_v12 = new Engine(2000);
+        engine_v12.PrintInfo();
+
     }
 }

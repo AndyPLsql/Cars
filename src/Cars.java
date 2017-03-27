@@ -12,5 +12,9 @@ public class Cars {
         Engine engine_v6 = new Engine(800);
         engine_v6.PrintInfo();
 
+        Bumper bumper = new Bumper();
+        bumper.setPartNumber("111-000");
+        bumper.PrintInfo();
+        }
     }
 }
